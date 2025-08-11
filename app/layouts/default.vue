@@ -3,7 +3,11 @@
 </script>
 
 <template>
-  $END$
+  <div>
+    <LayoutHeader/>
+      <slot/>
+    <LayoutFooter/>
+  </div>
 </template>
 
 <style scoped>
